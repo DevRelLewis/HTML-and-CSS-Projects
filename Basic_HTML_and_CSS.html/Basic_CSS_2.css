@@ -1,6 +1,15 @@
 p {
     color:red;
-    background-color: blanchedalmond;
-    font-size: xx-large;
-    text-align: right;
+    background-color: black;
+    font-size: xxx-large;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-shadow: 5px 5px 4px #3085f8;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: normal;
 }
