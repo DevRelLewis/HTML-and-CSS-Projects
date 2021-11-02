@@ -29,6 +29,15 @@ h1 {
     transition: transform .5s ease-in-out;
 }
 
+.squares.squares:nth-child(-n+4) p{
+    font-family: "Helvetica Neue" , Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
+}
+
 .squares:nth-child(1) {
     background: #4240ff;
 
