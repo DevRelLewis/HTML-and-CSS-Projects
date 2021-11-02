@@ -17,7 +17,7 @@ h1 {
 }
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("../Images/Icons")
+    background-image: url("../Images/Icons/icons_1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -55,7 +55,12 @@ h1 {
     background: #00b200;
 }
 .container .squares.squares:nth-child(-n+4):hover {
-    background-image: url("../Images/Icons/icons_1.png");
+    background-image: url("../Images/Icons/icons_2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(3,.4,.5,3);
 }
 
 .squares:nth-child(1):hover {
@@ -74,3 +79,12 @@ h1 {
     background: #77b800;
 }
 
+@keyframes race {
+    0%, 100%   {
+        transform: translateY(0px) ;
+        background-image: url("../Images/Icons/icons_2.png");
+        }
+        50%{
+            transform: translateY(330px);
+        }
+    }
