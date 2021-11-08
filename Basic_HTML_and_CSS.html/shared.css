@@ -37,9 +37,9 @@ h1 {
 }
 
 h1::after { /*This is the underline*/
-    display: block
+    display: block;
     content: "";
-    height: 2px;
+    height: 2px
     width: 150px;
     background: #E91C1C;
     margin: 5px auto 40px;
@@ -240,7 +240,7 @@ section {
     box-shadow: 'Raleway', sans-serif;
 }
 
-.contact input [type="text"] {
+.contact input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -258,7 +258,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.contact input [type="text"]:hover {
+.contact input[type="text"]:hover {
     box-shadow: 0 0 18px rgba(100,65,0,.8);
 }
 
@@ -285,7 +285,7 @@ section {
     text-decoration: underline;
 }
 
-.submit: input[type="submit"] {
+.submit:input[type="submit"] {
     color: rgb(225,225,225);
     cursor: pointer;
     border: none;
@@ -302,7 +302,7 @@ section {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
-.submit input[type="submit"]:hover {
+.submit:input[type="submit"]:hover {
     color: #000;
     background-color: #8D8E8F;
     box-shadow: input 1px 2px 15px 0 rgba(0, 0, 0, 0.5);

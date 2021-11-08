@@ -24,7 +24,7 @@
     transition-property: background;
     transition-duration: .4s;
     transition-delay: 0s;
-    transitioning-timing-funtional: ease-in-out;
+    transition-timing-function: ease-in-out;
 }
 
 .menu li:hover {

@@ -2,4 +2,12 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
     font-style: italic;
+    text-align: center;
+}
+
+input {
+    width: 100px;
+    margin: auto;
+    border-radius: 25px;
+    border: solid black;
 }
